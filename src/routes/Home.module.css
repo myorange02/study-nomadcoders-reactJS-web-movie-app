@@ -1,0 +1,53 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #ddd;
+    background-color: #111;
+}
+
+/* HEADER */
+
+header {
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leftHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.companyTitle {
+    margin: 20px;
+    font-size: 40px;
+}
+
+.leftHeader > ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leftHeader > ul > li {
+    margin-right: 10px;
+}
+
+.rightHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* MAIN */
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
